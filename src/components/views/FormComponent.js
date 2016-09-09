@@ -85,7 +85,7 @@ class FormComponent extends Component {
         return (
             <div className={Styles.addressComponent}>
                 <div className={Styles.formWrapper}>
-                    <div className={Styles.formHeading}> Personal Details Form </div>
+                    <div className={Styles.formHeading}> PERSONAL DETAILS FORM </div>
                     <PerfectForm schema ={mySchema}
                                 formData= {formData}
                                 validator={ addressValidation }
