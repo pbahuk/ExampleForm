@@ -1,0 +1,19 @@
+{
+	"parser" : "babel-eslint",
+	"env"	 : {
+		"browser" : true,
+		"node"	: true
+	},
+	"extends": "airbnb",
+	"rules"	: {
+		"indent": [2, 4, {'SwitchCase': 1}],
+		"max-len": ["error", 200],
+		"object-shorthand": ["error", "always", { "ignoreConstructors": true }],
+		"one-var": ["error", {
+		    "var": "always", // Exactly one var declaration per function
+		    "let": "always", // Exactly one let declaration per block
+		    "const": "never" // Exactly one declarator per const declaration per block
+		}],
+		"arrow-body-style": ["error", "always"],
+	}
+}

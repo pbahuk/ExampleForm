@@ -29,24 +29,23 @@ const mySchema = {
 
 
 const formData = {
-    pincode: '560068',
-    locality: 'Begur',
-    city: 'Bangalore',
-    state: 'Karnataka',
-    name: 'Pramod MG',
-    address: 'Somewhere, somewhere',
-    mobile: '9914182613',
-    permanentAddress: false,
-
-    // pincode: '',
-    // locality: '',
-    // city: '',
-    // state: '',
-    // name: '',
-    // address: '',
-    // mobile: '',
+    // pincode: '560068',
+    // locality: 'Begur',
+    // city: 'Bangalore',
+    // state: 'Karnataka',
+    // name: 'Pramod MG',
+    // address: 'Somewhere, somewhere',
+    // mobile: '9914182613',
     // permanentAddress: false,
 
+    pincode: '',
+    locality: '',
+    city: '',
+    state: '',
+    name: '',
+    address: '',
+    mobile: '',
+    permanentAddress: false,
 };
 
 
