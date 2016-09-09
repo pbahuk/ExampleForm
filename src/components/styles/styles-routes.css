@@ -1,0 +1,51 @@
+.eachLink {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #FF80AB;
+    margin-bottom: 10px;
+}
+
+.mainContainer {
+    margin: 10px;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+}
+
+.eachGroup {
+    border: 1px solid #FF80AB;
+    padding: 10px;
+}
+
+.icon {
+    width: 49%;
+    display: inline-block;
+    text-align: right;
+}
+
+.bottomSpacing {
+    margin: 10px 0px 10px 0px;
+}
+
+.infoPara {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.formLink {
+    margin: 10px 0px 10px 0px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    background: #0bc6a0;
+    border:none;
+    width: 120px;
+    padding: 15px; 
+    text-align: center;
+    margin-top: 100px;
+}
+
+.buttonText {
+    color: white;
+}
